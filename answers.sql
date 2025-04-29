@@ -11,7 +11,7 @@ Products VARCHAR(100)
 
 
 -- Insert noramlized data into ProductDetail
-INSERT INTO ProducttDetail
+INSERT INTO ProductDetail
 VALUES
 (101, 'John Doe', 'Laptop'),
 (101, 'John Doe', 'Mouse'),
@@ -28,8 +28,8 @@ CREATE TABLE orders(
     CustomerName VARCHAR(100)
 )
 
--- Create the OrderItems table (dependent on full composite key)
 
+-- Create the OrderItems table (dependent on full composite key)
 CREATE TABLE orderItems(
 	OrderID INT,
     Product VARCHAR(100),
